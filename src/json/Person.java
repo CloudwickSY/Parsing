@@ -21,7 +21,6 @@ public class Person {
 
 	class PhoneNumber {
 		String type, number;
-
 		@Override
 		public String toString() {
 			return "\"type\": \"" + this.type + "\",\n\"number\": \"" + this.number + "\"";

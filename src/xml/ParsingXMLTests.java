@@ -1,3 +1,4 @@
+package xml;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
@@ -6,7 +7,9 @@ import java.io.IOException;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ParsingCSVTests {
+import csv.ParsingCSV;
+
+public class ParsingXMLTests {
 
 	ParsingCSV pCSV = new ParsingCSV();
 
